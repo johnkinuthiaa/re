@@ -1,0 +1,12 @@
+.home {
+    background: linear-gradient(20deg, rgb(0, 0, 0), rgb(11, 25, 44));
+    margin: 0 auto;
+    width: 100%;
+}
+.homePage{
+    width: 100%;
+    background-color: rgb(0,0,0);
+}
+.image__h2{
+    color: #ffffff;
+}

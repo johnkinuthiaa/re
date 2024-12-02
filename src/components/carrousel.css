@@ -1,0 +1,34 @@
+.image{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.image button{
+    outline: none;
+    border: none;
+    cursor:pointer;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    padding: 5px;
+}
+.carrousel{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+
+}
+@media screen and (max-width: 768px){
+    .carrousel{
+        width: 100%;
+        height:30%;
+        overflow: scroll;
+        scroll-behavior: smooth;
+
+    }
+
+}

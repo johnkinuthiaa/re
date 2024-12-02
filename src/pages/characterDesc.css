@@ -1,0 +1,33 @@
+.character__description{
+    background:linear-gradient(25deg,rgb(0,0,0),rgb(2, 76, 170));
+    color: #ffffff;
+    padding: 5px;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+.character__description__text h2{
+    text-align: left;
+    font-weight: 900;
+
+}
+.character__description img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+@media  screen and (max-width: 768px) {
+    .character__description img{
+        width: 100%;
+    }
+    .character__description{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

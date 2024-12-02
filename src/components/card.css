@@ -1,0 +1,27 @@
+.img__container img{
+    height: 500px;
+    width: 100%;
+    margin-top: -60px;
+
+}
+.image__container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background:linear-gradient(25deg,rgb(0,0,0),rgb(2, 76, 170));
+    transition: 2s ease-out background;
+}
+.image__container:hover{
+    background: linear-gradient(to left,rgb(0,0,100),rgb(2, 76, 170,0.4));
+    cursor: pointer;
+}
+.image__container h2{
+    text-align: center;
+    color: #ffffff;
+}
+.image__container p{
+    color: #ffffff;
+    padding: 10px;
+    line-height: 1.5;
+}

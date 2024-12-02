@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Geist+Mono:wght@100..900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Just+Another+Hand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.header{
+    color: #fff;
+    justify-content: space-between;
+    background:linear-gradient(25deg,rgb(0,0,0),rgb(2, 76, 170,0.7));
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+}
+.header>*{
+    margin-left: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.header a h2{
+    font-weight: 400;
+    font-family: "Aldrich", serif;
+}
+.header a:visited{
+    color: white;
+}
+.header a:active{
+    color: white;
+}

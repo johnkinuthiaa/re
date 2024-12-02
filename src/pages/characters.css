@@ -1,0 +1,29 @@
+.characters{
+    display: flex;
+    /*background: linear-gradient(10rad,rgb(0, 119, 192),rgb(0,0,0));*/
+    background: linear-gradient(25deg,rgb(0,0,0),rgb(2, 76, 170));
+    height: 110%;
+    /*background-color: rgb(0, 119, 192);*/
+}
+.characters__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.characters__container >*{
+    border: 2px solid rgb(76, 201, 254);
+}
+@media  screen and (max-width: 768px) {
+    .characters{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right,rgb(0,0,0),rgb(2, 76, 170));
+    }
+    .characters__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
